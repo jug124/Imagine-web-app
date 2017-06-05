@@ -5,6 +5,7 @@
   #video-area .contents h1 {
     font-size: 32px;
     line-height: 48px;
+    margin-top: 25px;
   }
   .navbar-light .navbar-nav .nav-link {
     padding: 8px 0px;
@@ -24,6 +25,9 @@
   }
   .subscribe-box input[type="text"] {
     padding: 6px 10px;
+  }
+  .big-banner {
+    height: 250px;
   }
 }
 @media (max-width: 640px) {
@@ -45,6 +49,7 @@
   #video-area .contents h1 {
     font-size: 30px;
     line-height: 48px;
+    margin-top: 25px;
   }
   #features .content-right span {
     float: none;
@@ -61,6 +66,9 @@
   .counters .facts-item {
     margin-bottom: 30px;
   }
+  .big-banner {
+    height: 250px;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-faded {
@@ -76,6 +84,7 @@
   #video-area .contents h1 {
     font-size: 18px;
     line-height: 32px;
+    margin-top: 25px;
   }
   .video-promo .video-promo-content h2 {
     font-size: 18px;
@@ -102,5 +111,8 @@
     width: 36px;
     height: 36px;
     line-height: 36px;
+  }
+  .big-banner {
+    height: 250px;
   }
 }

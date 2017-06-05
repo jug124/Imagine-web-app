@@ -4,10 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="keywords" content="Web service, web application and website.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-    <title>Crystal - Free Video Background Website Template</title>
+    <title>Imagine | Web developer and designer.</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>/resources/assets/css/bootstrap.min.css">
@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>/resources/assets/css/menu_sideslide.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>/resources/assets/css/main.css">    
     <link rel="stylesheet" href="<?php echo base_url(); ?>/resources/assets/css/responsive.css">
+
+    <style>
+      
+    </style>
 
   </head>
   <body>
@@ -64,19 +68,17 @@
       <div class="fixed-top">
           <div class="container">
             <div class="logo-menu">
-              <a href="index.html" class="logo"><span class="lnr lnr-diamond"></span> CRYSTAL</a>
+              <!-- <a href="index.html" class="logo"><span class="lnr lnr-diamond"></span> CRYSTAL</a> -->
               <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>    
             </div>           
           </div>
       </div>
       <div class="overlay overlay-2"></div>      
-      <div class="container">
+      <div class="container big-banner">
         <div class="row justify-content-md-center">
           <div class="col-md-10">
             <div class="contents text-center">
-              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Crystal - Free Video Background HTML5 Bootstrap Template</h1>
-              <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Free High-quality Responsive Video Background Website Template Based on Bootstrap 4 to Create Complete Business Website in Minutes</p>
-              <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms"><i class="lnr lnr-download"></i> Download</a>
+              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><font style="letter-spacing: 16px;">Imagine.</font></h1>
             </div>
           </div>
         </div> 
@@ -89,26 +91,44 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Services</span></h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">About <span>Me</span></h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
+          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Hello I am Jakarin a software and web developer. I founded the Imagine as a small brand to inspire people through simple, meaningful design for website and web application.</p>
         </div>
         <div class="row">
           <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+            <div class="item-boxes wow fadeInDown" data-wow-delay="1s">
               <div class="icon">
-                <i class="lnr lnr-pencil"></i>
+                <i class="fa fa-code"></i>
               </div>
-              <h4>Content Writing</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+              <h4>Software Development</h4>
+              <p>I have extensive work experience in computer systems and software development for over 10 years and have strong background in C/C++, Java/JSP/Servlet, shell script, PHP and HTML/CSS.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
               <div class="icon">
-                <i class="lnr lnr-cog"></i>
+                <i class="fa fa-laptop"></i>
               </div>
               <h4>Web Development</h4>
+              <p>I code my own designs by using HTML, CSS and basic Javascript. Recently, I'm using frameworks like Bootstrap and CodeIgniter.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
+              <div class="icon">
+                <i class="lnr lnr-layers"></i>
+              </div>
+              <h4>UI/UX Design</h4>
+              <p>I am not an expert UI/UX designer but I like design. I believe that an intelligent design can makes a difference.</p>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 col-sm-6">
+            <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <i class="lnr lnr-pencil"></i>
+              </div>
+              <h4>Content Writing</h4>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
             </div>
           </div>
@@ -122,24 +142,6 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
-              <div class="icon">
-                <i class="lnr lnr-layers"></i>
-              </div>
-              <h4>UI/UX Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="item-boxes wow fadeInDown" data-wow-delay="1s">
-              <div class="icon">
-                <i class="lnr lnr-tablet"></i>
-              </div>
-              <h4>App Development</h4>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
                 <i class="lnr lnr-briefcase"></i>
@@ -147,7 +149,7 @@
               <h4>Digital Marketing</h4>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -157,38 +159,38 @@
     <section id="features" class="section" data-stellar-background-ratio="0.2">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Amazing <span>Features</span></h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">From idea to <span>product</span></h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
+          <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">I turn ideas into interactive digital experiences through a design process that consists of Planning, Wireframing, Prototyping & Testing.</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div class="content-left text-right wow fadeInLeft animated" data-wow-offset="10">
               <div class="box-item left">
                 <span class="icon">
-                  <i class="lnr lnr-rocket"></i>
+                  <i class="fa fa-comments-o"></i>
                 </span>
                 <div class="text">
-                  <h4>Bootstrap 4 Based</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <h4>Client’s needs</h4>
+                  <p>Before starting my plan, I’ll need as much information from my client as possible.</p>
                 </div>
               </div>
               <div class="box-item left">
                 <span class="icon">
-                  <i class="lnr lnr-laptop-phone"></i>
+                  <i class="fa fa-search"></i>
                 </span>
                 <div class="text">
-                  <h4>Fully Responsive</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <h4>Research & ideas</h4>
+                  <p>I like to research for any creative design of template and apply them for my project.</p>
                 </div>
               </div>
               <div class="box-item left">
                 <span class="icon">
-                  <i class="lnr lnr-cog"></i>
+                  <i class="fa fa-sitemap"></i>
                 </span>
                 <div class="text">
-                  <h4>HTML5 & CSS3</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <h4>Flow</h4>
+                  <p>Before start coding, I'll draft the service/application flow.</p>
                 </div>
               </div>
             </div>
@@ -202,29 +204,20 @@
             <div class="content-right text-left wow fadeInRight animated" data-wow-offset="10">
               <div class="box-item right">
                 <span class="icon">
-                  <i class="lnr lnr-camera-video"></i>
+                  <i class="fa fa-pencil"></i>
                 </span>
                 <div class="text">
-                  <h4>Video Background</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  <h4>Design</h4>
+                  <p>I have been trying to design practical and basic products rather then ones having various functions but not using well.</p>
                 </div>
               </div>
               <div class="box-item right">
                 <span class="icon">
-                  <i class="lnr lnr-magic-wand"></i>
+                  <i class="fa fa-code"></i>
                 </span>
                 <div class="text">
-                  <h4>Parallax Sections</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </div>
-              <div class="box-item right">
-                <span class="icon">
-                  <i class="lnr lnr-spell-check"></i>
-                </span>
-                <div class="text">
-                  <h4>Ajax Contact Form</h4>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <h4>Code</h4>
+                  <p>I develop web service/application from design with my development experiences.</p>
                 </div>
               </div>
             </div>
@@ -235,7 +228,7 @@
     <!-- Features Section End -->    
 
     <!-- Start Video promo Section -->
-    <section class="video-promo section" data-stellar-background-ratio="0.5">
+    <!-- <section class="video-promo section" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -248,7 +241,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Video Promo Section -->
 
     <!-- Portfolio Section -->
@@ -256,9 +249,9 @@
       <!-- Container Starts -->
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our <span>Works</span></h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">My <span>Works</span></h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Working with clients to inspire people through simple, meaningful design. </p>
         </div>
         <div class="row">          
           <div class="col-md-12">
@@ -267,25 +260,25 @@
               <a class="control mixitup-control-active btn btn-common" data-filter="all">
                 All 
               </a>
-              <a class="control btn btn-common" data-filter=".marketing">
+              <a class="control btn btn-common" data-filter=".design">
                 Design 
               </a>
-              <a class="control btn btn-common" data-filter=".planning">
-                Development
+              <a class="control btn btn-common" data-filter=".website">
+                Website 
               </a>
-              <a class="control btn btn-common" data-filter=".research">
-                Print 
+              <a class="control btn btn-common" data-filter=".development">
+                Development
               </a>
             </div>
             <!-- Portfolio Controller/Buttons Ends-->          
 
             <!-- Portfolio Recent Projects -->
             <div id="portfolio" class="row wow fadeInUp" data-wow-delay="0.8s">
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
                 <div class="portfolio-item">
                   <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img1.jpg">
-                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/img1.jpg" alt="" />  
+                    <a class="overlay lightbox" href="<?php echo base_url(); ?>/resources/assets/img/portfolio/img1-mod.png">
+                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/img1-mod.png" alt="" />  
                       <i class="lnr lnr-plus-circle item-icon"></i>
                     </a>
                   </div>               

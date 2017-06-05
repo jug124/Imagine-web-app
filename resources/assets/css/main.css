@@ -318,6 +318,7 @@ a:not([href]):not([tabindex]):hover {
   font-weight: 600;
   margin-bottom: 25px;
   line-height: 70px;
+  margin-top: 150px;
 }
 #video-area .contents p {
   font-size: 14px;
@@ -346,6 +347,12 @@ a:not([href]):not([tabindex]):hover {
 }
 .overlay-2 {
   background: rgba(0, 0, 0, 0.7) !important;
+}
+.big-banner {
+  height: 700px;
+}
+.float_center {
+  margin-top: 160px;
 }
 /* ==========================================================================
    About Section Style
@@ -777,7 +784,8 @@ a:not([href]):not([tabindex]):hover {
    Counter Section Style
    ========================================================================== */
 .counters {
-  background: url(../img/bg1.jpg) fixed;
+  /*background: url(../img/bg1.jpg) fixed;*/
+  background: url(../img/bg_2.jpg) fixed;
   position: relative;
 }
 .counters .facts-item {
