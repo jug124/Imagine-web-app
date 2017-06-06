@@ -22,13 +22,9 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>/resources/assets/css/main.css">    
     <link rel="stylesheet" href="<?php echo base_url(); ?>/resources/assets/css/responsive.css">
 
-    <style>
-      
-    </style>
-
   </head>
   <body>
-      <div class="menu-wrap">
+      <!-- <div class="menu-wrap">
         <nav class="menu navbar">
           <div class="icon-list navbar-collapse">
             <ul class="navbar-nav">
@@ -60,7 +56,7 @@
           </div>
         </nav> 
         <button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
-      </div>      
+      </div>   -->    
   	<!-- Header Section Start -->
 
     <header id="video-area" data-stellar-background-ratio="0.5">    
@@ -69,7 +65,7 @@
           <div class="container">
             <div class="logo-menu">
               <!-- <a href="index.html" class="logo"><span class="lnr lnr-diamond"></span> CRYSTAL</a> -->
-              <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>    
+              <!-- <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button> -->    
             </div>           
           </div>
       </div>
@@ -78,7 +74,7 @@
         <div class="row justify-content-md-center">
           <div class="col-md-10">
             <div class="contents text-center">
-              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><font style="letter-spacing: 16px;">Imagine.</font></h1>
+              <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><font style="letter-spacing: 16px;">imagine<span class="blink">|</span></font></h1>
             </div>
           </div>
         </div> 
@@ -445,7 +441,7 @@
                   <i class="lnr lnr-coffee-cup"></i>
                 </div>                
                 <div class="fact-count">
-                  <h3><span class="counter">700</span></h3>
+                  <h3><span class="counter">260</span></h3>
                   <h4>Cup of Coffee</h4>
                 </div>
               </div>
@@ -458,7 +454,7 @@
                   <i class="lnr lnr-user"></i>
                 </div>                
                 <div class="fact-count">
-                  <h3><span class="counter">10000</span>+</h3>
+                  <h3><span class="counter">12</span>+</h3>
                   <h4>Active Clients</h4>
                 </div>
               </div>
@@ -471,7 +467,7 @@
                   <i class="lnr lnr-heart"></i>
                 </div>                
                 <div class="fact-count">
-                  <h3><span class="counter">1689</span></h3>
+                  <h3><span class="counter">145</span></h3>
                   <h4>Peoples Love</h4>
                 </div>
               </div>
@@ -481,60 +477,6 @@
       </div>
     </div>
     <!-- Counter Section End -->
-
-    <!-- testimonial Section Start -->
-    <div id="testimonial" class="section">
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-md-10 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="touch-slider owl-carousel owl-theme">
-              <div class="testimonial-item">
-                <img src="<?php echo base_url(); ?>/resources/assets/img/testimonial/customer1.png" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
-                  <h3>Johnathan Doe</h3>
-                  <span>Marketing Head Matrix media</span>
-                </div>
-              </div>
-              <div class="testimonial-item">
-                <img src="<?php echo base_url(); ?>/resources/assets/img/testimonial/customer2.png" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
-                  <h3>Oidila Matik</h3>
-                  <span>President Lexo Inc</span>
-                </div>
-              </div>
-              <div class="testimonial-item">
-                <img src="<?php echo base_url(); ?>/resources/assets/img/testimonial/customer3.png" alt="Client Testimonoal" />
-                <div class="testimonial-text">
-                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
-                  <h3>- Alex Dattilo</h3>
-                  <span>CEO Optima Inc</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>        
-      </div>
-    </div>
-    <!-- testimonial Section Start -->
-
-    <!-- Download Section Start -->
-    <section id="download" class="section">
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><span>Download</span> Our App</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-12">            
-            <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
-                <a href="#" class="btn btn-border"><i class="fa fa-apple"></i>Download Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Download Section End -->
 
     <!-- Blog Section -->
     <section id="blog" class="section">
@@ -624,6 +566,61 @@
       </div>
     </section>
     <!-- blog Section End -->
+
+    <!-- testimonial Section Start -->
+    <div id="testimonial" class="section">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-10 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="touch-slider owl-carousel owl-theme">
+              <div class="testimonial-item">
+                <img src="<?php echo base_url(); ?>/resources/assets/img/testimonial/customer1.png" alt="Client Testimonoal" />
+                <div class="testimonial-text">
+                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
+                  <h3>Johnathan Doe</h3>
+                  <span>Marketing Head Matrix media</span>
+                </div>
+              </div>
+              <div class="testimonial-item">
+                <img src="<?php echo base_url(); ?>/resources/assets/img/testimonial/customer2.png" alt="Client Testimonoal" />
+                <div class="testimonial-text">
+                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
+                  <h3>Oidila Matik</h3>
+                  <span>President Lexo Inc</span>
+                </div>
+              </div>
+              <div class="testimonial-item">
+                <img src="<?php echo base_url(); ?>/resources/assets/img/testimonial/customer3.png" alt="Client Testimonoal" />
+                <div class="testimonial-text">
+                  <p>Morbi eget dictum enim. Praesent sed quam sit amet lorem tempor rhoncus. <br>In hac habitasse platea dictumst. Vivamus in accumsan ex</p>
+                  <h3>- Alex Dattilo</h3>
+                  <span>CEO Optima Inc</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+    <!-- testimonial Section Start -->
+
+    <!-- Download Section Start -->
+    <section id="download" class="section">
+      <div class="container">
+        <div class="section-header">          
+          <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">WANT TO WORK <span>TOGETHER?</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-12">            
+            <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
+                <!-- <a href="#" class="btn btn-border"><i class="fa fa-apple"></i>Download Now</a> -->
+                <p style="font-size: 16px; color: #fff;">We're currently accepting new projects and would love to hear about yours. Please take a few minutes to tell us about it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Download Section End -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="section">

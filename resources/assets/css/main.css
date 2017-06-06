@@ -151,6 +151,20 @@ a:not([href]):not([tabindex]):hover {
   background: #4676fa;
   left: 27px;
 }
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 /* ==========================================================================
    Navbar Style
    ========================================================================== */
@@ -812,7 +826,8 @@ a:not([href]):not([tabindex]):hover {
    Testimonial Section Style
    ========================================================================== */
 #testimonial {
-  background: #f2f2f2;
+  /*background: #f2f2f2;*/
+  background: #fff;
 }
 .testimonial-item {
   text-align: center;
@@ -865,6 +880,9 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    Blog 
    ========================================================================== */
+#blog {
+  background: #f2f2f2;
+}
 #blog .blog-item-wrapper {
   background: #fff;
   border-radius: 0px;
