@@ -284,47 +284,47 @@
                   </div>               
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
                 <div class="portfolio-item">
                   <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img2.jpg">
-                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/img2.jpg" alt="" />  
+                    <a class="overlay lightbox" href="<?php echo base_url(); ?>/resources/assets/img/portfolio/img2-mod.png">
+                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/img2-mod.png" alt="" />  
                       <i class="lnr lnr-plus-circle item-icon"></i>
                     </a>
                   </div>               
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix research">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix website">
                 <div class="portfolio-item">
                   <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img3.jpg">
-                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/img3.jpg" alt="" />  
+                    <a class="overlay lightbox" href="<?php echo base_url(); ?>/resources/assets/img/portfolio/linkworld.png">
+                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/linkworld.png" alt="" />  
                       <i class="lnr lnr-plus-circle item-icon"></i>
                     </a>
                   </div>               
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing research">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix website">
                 <div class="portfolio-item">
                   <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img4.jpg">
-                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/img4.jpg" alt="" />  
+                    <a class="overlay lightbox" href="<?php echo base_url(); ?>/resources/assets/img/portfolio/pg-intergroup.png">
+                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/pg-intergroup.png" alt="" />  
                       <i class="lnr lnr-plus-circle item-icon"></i>
                     </a>
                   </div>               
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix marketing planning">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix website">
                 <div class="portfolio-item">
                   <div class="shot-item">
-                    <a class="overlay lightbox" href="img/portfolio/img5.jpg">
-                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/img5.jpg" alt="" />  
+                    <a class="overlay lightbox" href="<?php echo base_url(); ?>/resources/assets/img/portfolio/pts.png">
+                      <img src="<?php echo base_url(); ?>/resources/assets/img/portfolio/pts.png" alt="" />  
                       <i class="lnr lnr-plus-circle item-icon"></i>
                     </a>
                   </div>               
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
+              <!-- <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix planning research">
                 <div class="portfolio-item">
                   <div class="shot-item">
                     <a class="overlay lightbox" href="img/portfolio/img6.jpg">
@@ -333,7 +333,7 @@
                     </a>
                   </div>               
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -343,7 +343,7 @@
     <!-- Portfolio Section Ends --> 
 
     <!-- Start Pricing Table Section -->
-    <div id="pricing" class="section pricing-section">
+    <!-- <div id="pricing" class="section pricing-section">
       <div class="container">
         <div class="section-header">          
           <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Pricing <span>Plans</span></h2>
@@ -417,7 +417,7 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- End Pricing Table Section -->
 
     <!-- Counter Section Start -->
